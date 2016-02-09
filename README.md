@@ -33,7 +33,9 @@ __・重要チェック項目  このケースはプログラムがクラッシ�
     `#: ../lib/manage/do_copy.c:43`  
     `#, fuzzy, c-format`  
     `msgid "Copy %s <%s> to current mapset as <%s>"`  
-    `msgstr "���"`
+    `msgstr "���"`  
+
+    変換元は引数 %s <%s> <%s> と３つあるが、変換先はなにもない。
 
 
 __・その他一応チェック必要  ヘッダにfuzzyがついてる。__  
